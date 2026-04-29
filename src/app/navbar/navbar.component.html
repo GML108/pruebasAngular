@@ -1,13 +1,35 @@
 <div>
   <nav>
     <div>
-      <img src="./../../../public/assets/Captura de pantalla 2026-04-27 111004.png" alt="angularweb">
+      <img src="../../assets/logo.png" alt="angularweb" />
     </div>
     <ul>
       <li><a href="/">Home</a></li>
-      <li><a href="/about">About</a></li>
-      <li><a href="/contact">Contact</a></li>
+
+      <li class="menusec">
+        <a (click)="desplegable('about')">About</a>
+        <ul class="secondarymenu" *ngIf="dropdown === 'about'">
+          <li><a routerLink="/team">Team</a></li>
+          <li><a routerLink="/company">Company</a></li>
+        </ul>
+      </li>
+      <li class="menusec">
+        <a (click)="desplegable('services')">Services</a>
+        <ul class="secondarymenu" *ngIf="dropdown === 'services'">
+          <li><a routerLink="/accommodation">Accommodation</a></li>
+          <li><a routerLink="/cleaning">Cleaning</a></li>
+          <li><a routerLink="/transportation">Transportation</a></li>
+        </ul>
+      </li>
+      <li class="menusec">
+        <a (click)="desplegable('portfolio')">Portfolio</a>
+        <ul class="secondarymenu" *ngIf="dropdown === 'portfolio'">
+          <li><a routerLink="/archives">Archives</a></li>
+          <li><a routerLink="/repositories">Repositories</a></li>
+          <li><a routerLink="/projects">Projects</a></li>
+        </ul>
+      </li>
+      <li><a routerLink="/contact">Contact</a></li>
     </ul>
   </nav>
 </div>
-
