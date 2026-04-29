@@ -1,0 +1,12 @@
+<section>
+  @if(logged){
+    <h2>user works! {{ username }}</h2>
+    <img (click)="greet()" src="https://www.github.com/GML108.png" alt="GitHub">
+  } @else {
+    <p>Por favor inicia sesión</p>
+    <button (click)="logged=true;">Iniciar sesión</button>
+  }
+
+  <app-games username="{{username}}"></app-games>
+</section>
+

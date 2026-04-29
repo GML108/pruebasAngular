@@ -1,0 +1,11 @@
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  padding: 4%;
+  color:black;
+}
+img{
+  width:50%;
+}
