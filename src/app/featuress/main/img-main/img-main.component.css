@@ -1,0 +1,10 @@
+div{
+  display:flex;
+  justify-content: center;
+  align-self: center;
+}
+img{
+  width:75%;
+  border-radius: 20px;
+  box-shadow: 1px 1px 6px;
+}

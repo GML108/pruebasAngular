@@ -12,12 +12,9 @@ div nav {
   background-color: white;
 
 }
-div img {
-  width: 100px;
-}
 img {
   border-radius: 50px;
-  width: fit-content;
+  width: 50px;
 }
 nav ul {
   padding: 2%;

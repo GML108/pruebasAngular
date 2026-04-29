@@ -1,9 +1,18 @@
-body{
+#main{
   background-color: white;
+  color: #000;
   display: flex;
   flex-direction: column;
   justify-content: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 14pt;
+  margin: 1%;
+  padding-left: 5%;
 
+}
+#titulo{
+  padding-bottom: 2%;
+}
+#cuerpo{
+  padding-bottom: 5%;
 }

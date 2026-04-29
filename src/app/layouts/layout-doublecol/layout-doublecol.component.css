@@ -1,0 +1,17 @@
+.layout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap:1rem;
+}
+.left {
+  flex: 5;
+}
+.right {
+  flex: 5;
+}
+@media (max-width: 768px) {
+  .layout {
+    flex-direction: column;
+  }
+}

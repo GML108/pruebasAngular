@@ -1,0 +1,11 @@
+div{
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  margin: 2%;
+  border: 2px solid black;
+  padding: 0 9%;
+  background-color: black;
+  color:white;
+
+}
