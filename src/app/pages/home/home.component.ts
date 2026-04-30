@@ -4,11 +4,12 @@ import { HeroComponent } from '../../featuress/hero/hero.component';
 import { MainComponent } from '../../featuress/main/main.component';
 
 @Component({
-  selector: 'app-home',
-  standalone: true,
-  imports: [CommonModule, HeroComponent,MainComponent],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+    selector: 'app-home',
+            standalone:true,
+
+    imports: [CommonModule, HeroComponent, MainComponent],
+    templateUrl: './home.component.html',
+    styleUrl: './home.component.css'
 })
 export class HomeComponent {
 

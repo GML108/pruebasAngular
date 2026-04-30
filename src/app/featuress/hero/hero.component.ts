@@ -1,17 +1,17 @@
-import { CommonModule } from '@angular/common';
-import { Component, Input} from '@angular/core';
+import { CommonModule, NgStyle } from '@angular/common';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-hero',
   standalone: true,
-  imports: [CommonModule],
+  imports: [NgStyle],
   templateUrl: './hero.component.html',
   styleUrl: './hero.component.css'
 })
 export class HeroComponent {
 
-  @Input()title:string='';
-  @Input()subtitle='';
-  @Input()image='';
+  @Input() title: string = '';
+  @Input() subtitle = '';
+  @Input() image = '';
 
 }

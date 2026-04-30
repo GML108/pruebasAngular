@@ -6,20 +6,19 @@
   justify-content: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 14pt;
-  margin: 1%;
-  padding-left: 5%;
+  padding: 5% 0;
+  margin: 1% 0;
+  white-space: pre-wrap;
 
 }
-#titulo{
+.titulo{
   padding-bottom: 2%;
-}
-#cuerpo{
-  padding-bottom: 5%;
 }
 
 .contenido-dinamico {
   display: flex;
-  gap: 4vw;
+  padding: 5%;
+
 }
 
 /* Si la variable es 'vertical', cambiamos a columna */
@@ -42,3 +41,5 @@
 }
 
 .texto, .imagen { flex: 1; }
+
+

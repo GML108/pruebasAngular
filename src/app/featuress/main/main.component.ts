@@ -5,11 +5,11 @@ import { CuerpoMainComponent } from './cuerpo-main/cuerpo-main.component';
 import { ImgMainComponent } from './img-main/img-main.component';
 
 @Component({
-  selector: 'app-main',
-  standalone: true,
-  imports: [CommonModule, TituloMainComponent, ImgMainComponent, CuerpoMainComponent],
-  templateUrl: './main.component.html',
-  styleUrl: './main.component.css'
+    selector: 'app-main',
+        standalone:true,
+    imports: [CommonModule, TituloMainComponent, ImgMainComponent, CuerpoMainComponent],
+    templateUrl: './main.component.html',
+    styleUrl: './main.component.css'
 })
 export class MainComponent {
   @Input() styleLayout='';

@@ -6,11 +6,11 @@ import { MainComponent } from './featuress/main/main.component';
 import { FooterComponent } from './featuress/footer/footer.component';
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet, NavbarComponent, HeroComponent, MainComponent, FooterComponent],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+    selector: 'app-root',
+    standalone:true,
+    imports: [RouterOutlet, NavbarComponent, FooterComponent],
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.css'
 })
 export class AppComponent {
 
