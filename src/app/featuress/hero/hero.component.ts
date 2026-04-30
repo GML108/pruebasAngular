@@ -1,10 +1,9 @@
-import { CommonModule, NgStyle } from '@angular/common';
 import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-hero',
   standalone: true,
-  imports: [NgStyle],
+  imports: [],
   templateUrl: './hero.component.html',
   styleUrl: './hero.component.css'
 })

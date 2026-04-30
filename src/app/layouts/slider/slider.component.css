@@ -1,0 +1,17 @@
+/* :host {
+  display: block;
+} */
+
+
+#container{
+  overflow:hidden;
+
+}
+#slider{
+  display:flex;
+  transition: transform 0.5s;
+}
+.slide{
+min-width: 100%;
+
+}
