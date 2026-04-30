@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  background-color: black;
+  gap: 6vw;
+}
+img {
+  border-radius: 50px;
+  width: 80px;
+}
+ul {
+  padding: 2%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 6vw;
+}
+li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}

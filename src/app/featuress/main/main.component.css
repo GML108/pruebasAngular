@@ -16,3 +16,29 @@
 #cuerpo{
   padding-bottom: 5%;
 }
+
+.contenido-dinamico {
+  display: flex;
+  gap: 4vw;
+}
+
+/* Si la variable es 'vertical', cambiamos a columna */
+.vertical .contenido-dinamico {
+  flex-direction: column;
+}
+.vertical .contenido-dinamico div .imagen{
+  width: 60%;
+}
+
+/* Si quieres que la imagen vaya arriba y el texto abajo */
+.vertical-reverse .contenido-dinamico {
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+
+.vertical-reverse .contenido-dinamico .imagen{
+  width: 60%;
+}
+
+.texto, .imagen { flex: 1; }

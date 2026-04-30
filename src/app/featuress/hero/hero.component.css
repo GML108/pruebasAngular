@@ -8,8 +8,8 @@ div{
   align-content: center;
 }
 div h1, h3{
-  background-color: black;
+  text-shadow: black 4px 2px 1px;
   text-transform: uppercase;
   padding: 1%;
-  font-size: 1rem;
+  font-size: 4rem;
 }
